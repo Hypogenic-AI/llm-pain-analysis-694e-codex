@@ -1,0 +1,1 @@
+Regression skipped: outcome has a single class (all refusal labels identical).

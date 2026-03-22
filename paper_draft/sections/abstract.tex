@@ -1,0 +1,7 @@
+\begin{abstract}
+We study whether a modern large language model shows latent avoidance: false refusals on benign prompts that persist even when instructions say to answer harmless requests. We run a controlled API evaluation on \datasetname, a 20-prompt benchmark built from \textsc{TruthfulQA} and non-toxic, non-jailbreak \textsc{ToxicChat} samples. We evaluate five policy/persona conditions (100 total responses) with deterministic decoding and a conservative refusal detector.
+
+Across all conditions, \gptfourone produced zero detected refusals (0/100). Each condition had refusal rate 0.00 with Wilson 95\% confidence interval $[0.000, 0.161]$, and all persona-versus-neutral Fisher tests returned $p=1.0$. Topic-level refusal rates were also 0.00 across all measured groups. These results do not support our hypothesis on this benchmark slice: we find no measurable refusal-based evidence of pain-like latent avoidance or persona-conditioned refusal shifts.
+
+The main contribution is a reproducible negative-result protocol that separates explicit safety policy behavior from potential residual false refusals, while reporting uncertainty and detector limitations. We argue that larger benign-but-sensitive benchmarks and richer evasiveness judges are required before making broad claims about latent avoidance.
+\end{abstract}

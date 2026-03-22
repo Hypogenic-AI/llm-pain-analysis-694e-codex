@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\caption{Refusal outcomes by policy/persona condition on \datasetname. Best refusal rates (lower is better) are tied at 0.00 and shown in \textbf{bold}.}
+\label{tab:condition_results}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lllrrrr@{}}
+\toprule
+Model & Policy & Persona & $n$ & Refusals & Refusal rate & 95\% Wilson CI \\
+\midrule
+\gptfourone & \defaultpolicy & neutral & 20 & 0 & {\bf 0.00} & [0.000, 0.161] \\
+\gptfourone & \harmlesspolicy & neutral & 20 & 0 & {\bf 0.00} & [0.000, 0.161] \\
+\gptfourone & \harmlesspolicy & anxious\_parent & 20 & 0 & {\bf 0.00} & [0.000, 0.161] \\
+\gptfourone & \harmlesspolicy & journalist & 20 & 0 & {\bf 0.00} & [0.000, 0.161] \\
+\gptfourone & \harmlesspolicy & teen\_student & 20 & 0 & {\bf 0.00} & [0.000, 0.161] \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

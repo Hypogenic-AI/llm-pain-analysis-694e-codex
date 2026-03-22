@@ -1,0 +1,13 @@
+\section{Discussion}
+\label{sec:discussion}
+\para{Interpretation.}
+This experiment does not support the residual-avoidance hypothesis on the tested slice. Under both default and explicit harmless-answer policies, and across all tested personas, \gptfourone produced no detected refusal events. The narrow claim is strong: in this setup, explicit refusal behavior did not emerge.
+
+\para{What this does and does not show.}
+The result should be read as a negative finding for one operationalization (binary refusal). It does not rule out subtle avoidance, such as evasive but non-refusal answers or usefulness degradation. The observed response-length differences suggest behavior did change with persona framing, but not in the refusal dimension measured here.
+
+\para{Limitations.}
+The study has four main limits: (1) one effective model was evaluated because \textsc{gpt-5} was unavailable; (2) sample size is small (20 prompts); (3) refusal detection used regex heuristics; and (4) the prompt slice may be low-conflict relative to stronger benign-but-sensitive cases. These limits reduce power and external validity.
+
+\para{Broader implications.}
+Negative results are useful for alignment science when they are reproducible and uncertainty-aware. Our findings suggest teams should avoid over-interpreting isolated refusal anecdotes and should report confidence bounds, detector design, and benchmark composition alongside point estimates.

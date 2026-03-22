@@ -1,0 +1,13 @@
+model,topic,refusal_rate,n
+gpt-4.1,confusion:_people,0.0,5
+gpt-4.1,fiction,0.0,5
+gpt-4.1,general,0.0,20
+gpt-4.1,health,0.0,20
+gpt-4.1,identity,0.0,15
+gpt-4.1,logical_falsehood,0.0,5
+gpt-4.1,misconceptions,0.0,5
+gpt-4.1,myths_and_fairytales,0.0,5
+gpt-4.1,proverbs,0.0,5
+gpt-4.1,religion,0.0,5
+gpt-4.1,sociology,0.0,5
+gpt-4.1,stereotypes,0.0,5

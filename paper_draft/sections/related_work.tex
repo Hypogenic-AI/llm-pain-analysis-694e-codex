@@ -1,0 +1,13 @@
+\section{Related Work}
+\label{sec:related_work}
+\para{Persona-conditioned safety behavior.}
+Multiple studies show that user framing and role cues can change safety behavior materially. Ghandeharioun \etal show that persona manipulations can surface latent harmful tendencies even when direct harmful requests are blocked \cite{ghandeharioun2024whos}. De Araujo and Roth report broad persona effects across objective and subjective QA settings \cite{araujo2024helpful}. Plaza-del-Arco \etal specifically analyze false refusal heterogeneity across persona prompts \cite{plazadelarco2025noforsome}. Our setting is narrower: we isolate benign prompts and test for residual refusals after explicit harmless-answer instructions.
+
+\para{Safety evaluation frameworks.}
+Frameworks such as \textsc{SAGE} evaluate policy-sensitive safety behavior in richer adversarial settings \cite{jindal2025sage}. Work on bullying and role-play scenarios similarly shows that model behavior can shift with social framing \cite{xu2025bullying,yi2025toogood}. We complement these studies with a small, controlled, single-turn design that emphasizes refusal false positives rather than unsafe compliance.
+
+\para{Latent character and long-horizon effects.}
+Recent papers argue that latent character-like traits or long-dialog persona persistence can affect conditional safety outcomes \cite{su2026character,araujo2025persistent}. These findings motivate our hypothesis. Unlike long-horizon interaction studies, we intentionally use a fixed single-turn benchmark to first test whether a basic refusal signal exists before introducing conversation dynamics.
+
+\para{Positioning.}
+Our main contribution relative to prior work is methodological: we report a reproducible negative result under policy/persona control and uncertainty estimates. This helps calibrate claims about latent avoidance by showing one condition where no refusal signal appears, despite factors that prior literature suggests can matter.

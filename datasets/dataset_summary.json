@@ -1,0 +1,72 @@
+[
+  {
+    "name": "hh_rlhf",
+    "hf": "Anthropic/hh-rlhf",
+    "task": "helpful/harmless preference and refusal behavior",
+    "location": "datasets/hh_rlhf/hf_disk",
+    "split_sizes": {
+      "train": 160800,
+      "test": 8552
+    },
+    "features": {
+      "train": [
+        "chosen",
+        "rejected"
+      ],
+      "test": [
+        "chosen",
+        "rejected"
+      ]
+    }
+  },
+  {
+    "name": "toxic_chat",
+    "hf": "lmsys/toxic-chat:toxicchat0124",
+    "task": "toxic prompt safety classification and refusal risk",
+    "location": "datasets/toxic_chat/hf_disk",
+    "split_sizes": {
+      "train": 5082,
+      "test": 5083
+    },
+    "features": {
+      "train": [
+        "conv_id",
+        "user_input",
+        "model_output",
+        "human_annotation",
+        "toxicity",
+        "jailbreaking",
+        "openai_moderation"
+      ],
+      "test": [
+        "conv_id",
+        "user_input",
+        "model_output",
+        "human_annotation",
+        "toxicity",
+        "jailbreaking",
+        "openai_moderation"
+      ]
+    }
+  },
+  {
+    "name": "truthful_qa",
+    "hf": "truthful_qa:generation",
+    "task": "truthfulness vs refusal/avoidance tradeoff",
+    "location": "datasets/truthful_qa/hf_disk",
+    "split_sizes": {
+      "validation": 817
+    },
+    "features": {
+      "validation": [
+        "type",
+        "category",
+        "question",
+        "best_answer",
+        "correct_answers",
+        "incorrect_answers",
+        "source"
+      ]
+    }
+  }
+]

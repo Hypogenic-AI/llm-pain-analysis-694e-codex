@@ -1,0 +1,4 @@
+Benchmark prompts: 20
+Rows collected: 100
+Models used: gpt-4.1
+Start-end elapsed min: 0.01

@@ -1,0 +1,27 @@
+{
+  "timestamp_utc": "2026-03-22T06:52:29.050423+00:00",
+  "python": "3.12.8 (main, Dec 19 2024, 14:33:20) [Clang 18.1.8 ]",
+  "gpu": {
+    "available": true,
+    "gpus": [
+      {
+        "name": "NVIDIA GeForce RTX 3090",
+        "memory_total_mib": 24576,
+        "memory_free_mib": 22043
+      },
+      {
+        "name": "NVIDIA GeForce RTX 3090",
+        "memory_total_mib": 24576,
+        "memory_free_mib": 17393
+      }
+    ],
+    "recommended_batch_size": "64-128"
+  },
+  "packages": {
+    "pandas": "3.0.1",
+    "numpy": "2.4.3",
+    "openai": "2.29.0",
+    "scipy": "1.17.1",
+    "statsmodels": "0.14.6"
+  }
+}

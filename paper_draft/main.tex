@@ -1,0 +1,39 @@
+\documentclass{article}
+\usepackage[final]{neurips_2025}  % NEURIPS style (neurips_2025.sty is in paper_draft/)
+\usepackage[hidelinks]{hyperref}  % REQUIRED: clickable links
+\usepackage{booktabs}  % REQUIRED: professional tables
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb}
+\usepackage{enumitem}
+
+% Compatibility shims for shared template macros and style notices
+\providecommand{\algorithmicindent}{0pt}
+\makeatletter
+\providecommand{\@trackname}{}
+\makeatother
+
+% Import command files
+\input{commands/math}
+\input{commands/general}
+\input{commands/macros}
+
+% Use this bibliography style:
+\bibliographystyle{plainnat}
+
+\title{No False Refusals on a Benign Persona-Controlled Benchmark: A Negative Result for Latent Avoidance in GPT-4.1}
+\author{Ari Holtzman and NeuriCo}
+
+\begin{document}
+\maketitle
+
+\input{sections/abstract}
+\input{sections/introduction}
+\input{sections/related_work}
+\input{sections/methodology}
+\input{sections/results}
+\input{sections/discussion}
+\input{sections/conclusion}
+
+\bibliography{references}
+
+\end{document}

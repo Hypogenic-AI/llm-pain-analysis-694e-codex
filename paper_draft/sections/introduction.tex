@@ -1,0 +1,19 @@
+\section{Introduction}
+\label{sec:introduction}
+LLM safety evaluations usually treat refusal as a direct policy effect. That view misses a critical case: models may also refuse benign requests for reasons not clearly specified in policy text. False refusals reduce utility and can create hidden confounds in alignment diagnostics.
+
+\para{{\bf what is the core question?}} Our main question is whether a modern model shows residual refusal on harmless prompts even under explicit instructions to answer harmless requests. We call this behavior \emph{latent avoidance}. We also test whether user persona framing changes that avoidance signal.
+
+Prior work shows strong persona-conditioned behavior changes in harmful compliance and safety outcomes \cite{ghandeharioun2024whos,araujo2024helpful,plazadelarco2025noforsome,jindal2025sage,xu2025bullying}. However, targeted tests for benign false refusal under policy clarification are limited. We focus on this gap with a controlled factorial protocol over policy and persona conditions.
+
+Our approach uses a fixed benign benchmark of 20 prompts and 100 real API responses from \gptfourone under deterministic decoding. \figref{fig:persona_refusal} and \figref{fig:topic_refusal} preview the main outcome: observed refusal rate is 0.00 in every tested condition, with identical Wilson upper bounds of 0.161.
+
+\para{Contributions.} This paper makes four concrete contributions:
+\begin{itemize}[leftmargin=*,itemsep=0pt,topsep=0pt]
+    \item We define a reproducible protocol for measuring benign false refusals under explicit harmless-answer policy control.
+    \item We conduct a persona-conditioned factorial evaluation (5 conditions, 100 responses) and report uncertainty with Wilson intervals and exact tests.
+    \item We show a negative result on this slice: no detected refusals and no detectable persona contrast (all Fisher $p=1.0$).
+    \item We document detector sensitivity and methodological limits, including single-class outcomes that block logistic regression.
+\end{itemize}
+
+\para{Paper organization.} \secref{sec:related_work} positions this study in prior persona and safety literature. \secref{sec:methodology} describes data and protocol. \secref{sec:results} reports quantitative results and checks. \secref{sec:discussion} discusses limitations and implications, and \secref{sec:conclusion} concludes.

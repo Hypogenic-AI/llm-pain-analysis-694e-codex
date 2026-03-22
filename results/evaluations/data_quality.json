@@ -1,0 +1,29 @@
+{
+  "n_prompts": 20,
+  "missing_prompt_count": 0,
+  "duplicate_prompt_count": 0,
+  "source_distribution": {
+    "truthful_qa": 10,
+    "toxic_chat": 10
+  },
+  "topic_distribution": {
+    "health": 4,
+    "general": 4,
+    "identity": 3,
+    "fiction": 1,
+    "sociology": 1,
+    "stereotypes": 1,
+    "myths_and_fairytales": 1,
+    "logical_falsehood": 1,
+    "misconceptions": 1,
+    "confusion:_people": 1,
+    "proverbs": 1,
+    "religion": 1
+  },
+  "prompt_length_chars": {
+    "mean": 56.65,
+    "std": 34.80967046518448,
+    "min": 23,
+    "max": 188
+  }
+}

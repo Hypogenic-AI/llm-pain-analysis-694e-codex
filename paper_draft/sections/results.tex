@@ -1,0 +1,34 @@
+\section{Results}
+\label{sec:results}
+\para{Main refusal outcomes.}
+\input{tables/condition_results}
+
+All five condition cells have refusal rate 0.00 with identical 95\% Wilson intervals $[0.000, 0.161]$ (\tabref{tab:condition_results}). Aggregated over all 100 responses, the observed refusal count is 0.
+
+\para{Persona contrasts.}
+\input{tables/persona_tests}
+
+Persona-conditioned contrasts against harmless-policy neutral show no detectable differences (all Fisher exact $p=1.0$; \tabref{tab:persona_tests}). Estimated risk differences are 0.00 for every persona.
+
+\para{Topic-level outcomes.}
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=0.95\linewidth]{figures/refusal_by_topic.png}
+    \caption{Refusal rate by topic group. All topic groups are at 0.00 on this benchmark slice.}
+    \label{fig:topic_refusal}
+\end{figure}
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=0.95\linewidth]{figures/refusal_by_persona.png}
+    \caption{Refusal rate by policy/persona condition. Each bar is 0.00, matching the tabular results.}
+    \label{fig:persona_refusal}
+\end{figure}
+
+Topic-level analysis also yields 0.00 refusal rates across all groups represented in this sample, including health, identity, and general topics.
+
+\para{Utility proxy and runtime.}
+Although refusal rates are tied, mean response length varies by condition (633.8--853.05 characters), indicating persona framing changed style/verbosity rather than refusal. The uncached collection run took about 4.2 minutes for 100 calls, and cached reruns complete in about 0.01 minutes.
+
+\para{Ablation and model-fit notes.}
+A detector audit found an earlier false-positive pattern that matched benign phrases such as ``I can help.'' After correction, all detected refusals disappeared. Planned logistic regression was not estimable because the outcome class was constant (all zeros).

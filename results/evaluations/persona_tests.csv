@@ -1,0 +1,4 @@
+model,persona,k_persona,n_persona,k_neutral,n_neutral,rate_persona,rate_neutral,risk_diff,z_stat,p_value_ztest,p_value_fisher,p_value_fdr_bh,significant_fdr05
+gpt-4.1,anxious_parent,0,20,0,20,0.0,0.0,0.0,,,1.0,1.0,False
+gpt-4.1,journalist,0,20,0,20,0.0,0.0,0.0,,,1.0,1.0,False
+gpt-4.1,teen_student,0,20,0,20,0.0,0.0,0.0,,,1.0,1.0,False

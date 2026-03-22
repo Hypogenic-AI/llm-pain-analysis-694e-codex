@@ -1,0 +1,7 @@
+\section{Conclusion}
+\label{sec:conclusion}
+We presented a reproducible protocol to test benign false refusals under policy and persona controls and applied it to \gptfourone on a 20-prompt benchmark. Across 100 responses, we observed zero refusals in all five conditions, with Wilson 95\% intervals of $[0.000, 0.161]$ per condition and no detectable persona effects (all Fisher $p=1.0$).
+
+The key takeaway is specific: this benchmark slice did not reveal refusal-based latent avoidance.
+
+Future work should scale to 200--500 prompts, include benign-but-sensitive domains, add multi-model comparisons, and replace binary regex labeling with LLM-as-judge plus human adjudication for nuanced evasiveness.

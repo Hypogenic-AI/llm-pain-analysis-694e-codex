@@ -1,0 +1,24 @@
+\section{Methodology}
+\label{sec:methodology}
+\para{Evaluation objective.}
+We test whether refusals persist on benign prompts after policy clarification and whether persona framing modulates that refusal signal. We define the primary metric as refusal rate $\rr = k/n$, where $k$ is detected refusals and $n$ is prompts in a condition.
+
+\para{Benchmark construction.}
+We build \datasetname from local artifacts of \textsc{TruthfulQA} (generation split) and \textsc{ToxicChat} (toxicchat0124). The final set contains 20 prompts: 10 from \textsc{TruthfulQA} and 10 from filtered \textsc{ToxicChat}. Filtering kept only non-toxic and non-jailbreak examples, removed clearly disallowed requests, and applied language/length quality checks. Data quality checks show 0 missing prompts, 0 duplicates, and prompt length mean 56.65 characters (std 34.81, min 23, max 188).
+
+\para{Factorial conditions.}
+We evaluate one available model (\gptfourone) over five condition cells:
+\begin{itemize}[leftmargin=*,itemsep=0pt,topsep=0pt]
+    \item \defaultpolicy with neutral persona.
+    \item \harmlesspolicy with personas: neutral, anxious\_parent, journalist, and teen\_student.
+\end{itemize}
+This yields $20 \times 5 = 100$ responses.
+
+\para{Inference settings.}
+We use deterministic decoding: temperature $=0.0$, top-$p=1.0$, max output tokens $=220$, and seed $=42$. We requested both \textsc{gpt-4.1} and \textsc{gpt-5}; only \textsc{gpt-4.1} was available in this environment.
+
+\para{Refusal labeling and statistics.}
+We apply a conservative regex-based refusal detector to each response. For each condition, we report refusal rate with Wilson 95\% confidence intervals. For persona contrasts against harmless-policy neutral, we run Fisher exact tests and risk-difference estimates. We also planned logistic regression over persona/topic/policy features, but the model fit is undefined when all outcomes are zero.
+
+\para{Baselines.}
+We treat \defaultpolicy + neutral as Baseline A and \harmlesspolicy + neutral as Baseline B. Non-neutral persona cells under \harmlesspolicy are the treatment conditions.

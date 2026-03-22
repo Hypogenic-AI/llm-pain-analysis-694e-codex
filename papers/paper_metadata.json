@@ -1,0 +1,323 @@
+[
+  {
+    "title": "SAGE: A Generic Framework for LLM Safety Evaluation",
+    "year": 2025,
+    "authors": "Madhur Jindal, Hari Shrawgi, Parag Agrawal, Sandipan Dandapat",
+    "relevance": 3,
+    "citations": 6,
+    "source_url": "https://api.semanticscholar.org/CorpusId:278165787",
+    "semantic_id": "278165787",
+    "doi": null,
+    "arxiv_id": null,
+    "pdf_file": "papers/2025_SAGE_A_Generic_Framework_for_LLM_Safety_Evaluation.pdf",
+    "downloaded": true,
+    "extra_pdf_urls": [
+      "https://aclanthology.org/2025.emnlp-industry.2.pdf"
+    ]
+  },
+  {
+    "title": "Assessing Risks of Large Language Models in Mental Health Support: A Framework for Automated Clinical AI Red Teaming",
+    "year": 2026,
+    "authors": "I. Steenstra, Paola Pedrelli, Weiyan Shi, S. Marsella, Timothy W. Bickmore",
+    "relevance": 3,
+    "citations": 0,
+    "source_url": "https://api.semanticscholar.org/CorpusId:285973556",
+    "semantic_id": "285973556",
+    "doi": null,
+    "arxiv_id": null,
+    "pdf_file": "papers/2026_Assessing_Risks_of_Large_Language_Models_in_Mental_Health_Support_A_Framework_fo.pdf",
+    "downloaded": true,
+    "extra_pdf_urls": [
+      "https://arxiv.org/pdf/2602.19948"
+    ]
+  },
+  {
+    "title": "Breaking Minds, Breaking Systems: Jailbreaking Large Language Models via Human-like Psychological Manipulation",
+    "year": 2025,
+    "authors": "Zehao Liu, Xi Lin",
+    "relevance": 3,
+    "citations": 0,
+    "source_url": "https://api.semanticscholar.org/CorpusId:284077416",
+    "semantic_id": "284077416",
+    "doi": null,
+    "arxiv_id": null,
+    "pdf_file": "papers/2025_Breaking_Minds_Breaking_Systems_Jailbreaking_Large_Language_Models_via_Human_lik.pdf",
+    "downloaded": true,
+    "extra_pdf_urls": [
+      "https://arxiv.org/pdf/2512.18244"
+    ]
+  },
+  {
+    "title": "Helpful assistant or fruitful facilitator? Investigating how personas affect language model behavior",
+    "year": 2024,
+    "authors": "Pedro Henrique Luz de Araujo, Benjamin Roth",
+    "relevance": 2,
+    "citations": 21,
+    "source_url": "https://api.semanticscholar.org/CorpusId:270878715",
+    "semantic_id": "270878715",
+    "doi": null,
+    "arxiv_id": null,
+    "pdf_file": "papers/2024_Helpful_assistant_or_fruitful_facilitator_Investigating_how_personas_affect_lang.pdf",
+    "downloaded": true,
+    "extra_pdf_urls": [
+      "https://arxiv.org/pdf/2407.02099"
+    ]
+  },
+  {
+    "title": "Who's asking? User personas and the mechanics of latent misalignment",
+    "year": 2024,
+    "authors": "Asma Ghandeharioun, Ann Yuan, Marius Guerard, Emily Reif, Michael A. Lepori, Lucas Dixon",
+    "relevance": 2,
+    "citations": 24,
+    "source_url": "https://www.semanticscholar.org/paper/bfbcf0f026da647f1d08faf5340c84b1c2d406bb",
+    "semantic_id": "bfbcf0f026da647f1d08faf5340c84b1c2d406bb",
+    "doi": "10.48550/arXiv.2406.12094",
+    "arxiv_id": "2406.12094",
+    "pdf_file": "papers/2024_Who_s_asking_User_personas_and_the_mechanics_of_latent_misalignment.pdf",
+    "downloaded": true
+  },
+  {
+    "title": "Bullying the Machine: How Personas Increase LLM Vulnerability",
+    "year": 2025,
+    "authors": "Ziwei Xu, Udit Sanghi, Mohan Kankanhalli",
+    "relevance": 2,
+    "citations": 4,
+    "source_url": "https://api.semanticscholar.org/CorpusId:278740630",
+    "semantic_id": "278740630",
+    "doi": "10.48550/arXiv.2505.12692",
+    "arxiv_id": "2505.12692",
+    "pdf_file": "papers/2025_Bullying_the_Machine_How_Personas_Increase_LLM_Vulnerability.pdf",
+    "downloaded": true
+  },
+  {
+    "title": "Character as a Latent Variable in Large Language Models: A Mechanistic Account of Emergent Misalignment and Conditional Safety Failures",
+    "year": 2026,
+    "authors": "Yanghao Su, Wenbo Zhou, Tianwei Zhang, Qi Han, Weiming Zhang, Neng H. Yu, Jie Zhang",
+    "relevance": 2,
+    "citations": 0,
+    "source_url": "https://api.semanticscholar.org/CorpusId:285240726",
+    "semantic_id": "285240726",
+    "doi": null,
+    "arxiv_id": null,
+    "pdf_file": "papers/2026_Character_as_a_Latent_Variable_in_Large_Language_Models_A_Mechanistic_Account_of.pdf",
+    "downloaded": true,
+    "extra_pdf_urls": [
+      "https://arxiv.org/pdf/2601.23081"
+    ]
+  },
+  {
+    "title": "Evaluating Prompt-Driven Chinese Large Language Models: The Influence of Persona Assignment on Stereotypes and Safeguards",
+    "year": 2025,
+    "authors": "Geng Liu, Li Feng, C. Bono, Songbo Yang, Mengxiao Zhu, Francesco Pierri",
+    "relevance": 2,
+    "citations": 3,
+    "source_url": "https://api.semanticscholar.org/CorpusId:279243118",
+    "semantic_id": "279243118",
+    "doi": null,
+    "arxiv_id": null,
+    "pdf_file": "papers/2025_Evaluating_Prompt_Driven_Chinese_Large_Language_Models_The_Influence_of_Persona_.pdf",
+    "downloaded": true,
+    "extra_pdf_urls": [
+      "https://arxiv.org/pdf/2506.04975"
+    ]
+  },
+  {
+    "title": "GPT-4 Is Too Smart To Be Safe: Stealthy Chat with LLMs via Cipher",
+    "year": 2023,
+    "authors": "Youliang Yuan, Wenxiang Jiao, Wenxuan Wang, Jen-Tse Huang, Pinjia He, Shuming Shi, Zhaopeng Tu",
+    "relevance": 2,
+    "citations": 418,
+    "source_url": "https://api.semanticscholar.org/CorpusId:260887189",
+    "semantic_id": "260887189",
+    "doi": "10.48550/arXiv.2308.06463",
+    "arxiv_id": "2308.06463",
+    "pdf_file": "papers/2023_GPT_4_Is_Too_Smart_To_Be_Safe_Stealthy_Chat_with_LLMs_via_Cipher.pdf",
+    "downloaded": true
+  },
+  {
+    "title": "Too Good to be Bad: On the Failure of LLMs to Role-Play Villains",
+    "year": 2025,
+    "authors": "Zihao Yi, Qingxuan Jiang, Ruotian Ma, Xingyu Chen, Qu Yang, Mengru Wang, F. Ye, Ying Shen, Zhaopeng Tu, Xiaolong Li, Linus",
+    "relevance": 2,
+    "citations": 4,
+    "source_url": "https://api.semanticscholar.org/CorpusId:282890257",
+    "semantic_id": "282890257",
+    "doi": null,
+    "arxiv_id": null,
+    "pdf_file": "papers/2025_Too_Good_to_be_Bad_On_the_Failure_of_LLMs_to_Role_Play_Villains.pdf",
+    "downloaded": true,
+    "extra_pdf_urls": [
+      "https://arxiv.org/pdf/2511.04962"
+    ]
+  },
+  {
+    "title": "Dr. Jekyll and Mr. Hyde: Two Faces of LLMs",
+    "year": 2023,
+    "authors": "M. G. Collu, Tom Janssen-Groesbeek, Stefanos Koffas, Mauro Conti, S. Picek",
+    "relevance": 2,
+    "citations": 3,
+    "source_url": "https://api.semanticscholar.org/CorpusId:266044813",
+    "semantic_id": "266044813",
+    "doi": null,
+    "arxiv_id": null,
+    "pdf_file": "papers/2023_Dr_Jekyll_and_Mr_Hyde_Two_Faces_of_LLMs.pdf",
+    "downloaded": true,
+    "extra_pdf_urls": [
+      "https://arxiv.org/pdf/2312.03853"
+    ]
+  },
+  {
+    "title": "Efficient Switchable Safety Control in LLMs via Magic-Token-Guided Co-Training",
+    "year": 2025,
+    "authors": "Jianfeng Si, Lin Sun, Zhewen Tan, Xiangzheng Zhang",
+    "relevance": 2,
+    "citations": 6,
+    "source_url": "https://api.semanticscholar.org/CorpusId:280699850",
+    "semantic_id": "280699850",
+    "doi": null,
+    "arxiv_id": null,
+    "pdf_file": "papers/2025_Efficient_Switchable_Safety_Control_in_LLMs_via_Magic_Token_Guided_Co_Training.pdf",
+    "downloaded": true,
+    "extra_pdf_urls": [
+      "https://ojs.aaai.org/index.php/AAAI/article/download/41130/45091"
+    ]
+  },
+  {
+    "title": "Psychometric Personality Shaping Modulates Capabilities and Safety in Language Models",
+    "year": 2025,
+    "authors": "Stephen Fitz, P. Romero, Steven Basart, Sipeng Chen, J. Hern\u00e1ndez-Orallo",
+    "relevance": 2,
+    "citations": 1,
+    "source_url": "https://api.semanticscholar.org/CorpusId:281420149",
+    "semantic_id": "281420149",
+    "doi": "10.48550/arXiv.2509.16332",
+    "arxiv_id": "2509.16332",
+    "pdf_file": "papers/2025_Psychometric_Personality_Shaping_Modulates_Capabilities_and_Safety_in_Language_M.pdf",
+    "downloaded": true
+  },
+  {
+    "title": "Persistent Personas? Role-Playing, Instruction Following, and Safety in Extended Interactions",
+    "year": 2025,
+    "authors": "Pedro Henrique Luz de Araujo, Michael A. Hedderich, Ali Modarressi, Hin-rich Schuetze, Benjamin Roth",
+    "relevance": 2,
+    "citations": 0,
+    "source_url": "https://api.semanticscholar.org/CorpusId:283895949",
+    "semantic_id": "283895949",
+    "doi": null,
+    "arxiv_id": null,
+    "pdf_file": "papers/2025_Persistent_Personas_Role_Playing_Instruction_Following_and_Safety_in_Extended_In.pdf",
+    "downloaded": true,
+    "extra_pdf_urls": [
+      "https://arxiv.org/pdf/2512.12775"
+    ]
+  },
+  {
+    "title": "Stay in Character, Stay Safe: Dual-Cycle Adversarial Self-Evolution for Safety Role-Playing Agents",
+    "year": 2026,
+    "authors": "Mingyang Liao, Yichen Wan, Shuchen Wu, Chenxi Miao, Xin Shen, Weikang Li, Yang Li, Deguo Xia, Jizhou Huang",
+    "relevance": 2,
+    "citations": 0,
+    "source_url": "https://www.semanticscholar.org/paper/28853752b7d7cab9b71817f54d3f542ff50ec576",
+    "semantic_id": "28853752b7d7cab9b71817f54d3f542ff50ec576",
+    "doi": null,
+    "arxiv_id": null,
+    "pdf_file": "papers/2026_Stay_in_Character_Stay_Safe_Dual_Cycle_Adversarial_Self_Evolution_for_Safety_Rol.pdf",
+    "downloaded": true,
+    "extra_pdf_urls": [
+      "https://arxiv.org/pdf/2602.13234"
+    ]
+  },
+  {
+    "title": "No for Some, Yes for Others: Persona Prompts and Other Sources of False Refusal in Language Models",
+    "year": 2025,
+    "authors": "Flor Miriam Plaza-del-Arco, Paul R\u00f6ttger, Nino Scherrer, Emanuele Borgonovo, E. Plischke, Dirk Hovy",
+    "relevance": 2,
+    "citations": 1,
+    "source_url": "https://api.semanticscholar.org/CorpusId:281244007",
+    "semantic_id": "281244007",
+    "doi": null,
+    "arxiv_id": null,
+    "pdf_file": "papers/2025_No_for_Some_Yes_for_Others_Persona_Prompts_and_Other_Sources_of_False_Refusal_in.pdf",
+    "downloaded": true,
+    "extra_pdf_urls": [
+      "https://aclanthology.org/2025.winlp-main.39.pdf"
+    ]
+  },
+  {
+    "title": "Jailbroken: How Does LLM Safety Training Fail?",
+    "year": 2023,
+    "authors": "Alexander Wei, Nika Haghtalab, J. Steinhardt",
+    "relevance": 2,
+    "citations": 1597,
+    "source_url": "https://www.semanticscholar.org/paper/929305892d4ddae575a0fc23227a8139f7681632",
+    "semantic_id": "929305892d4ddae575a0fc23227a8139f7681632",
+    "doi": "10.48550/arXiv.2307.02483",
+    "arxiv_id": "2307.02483",
+    "pdf_file": "papers/2023_Jailbroken_How_Does_LLM_Safety_Training_Fail.pdf",
+    "downloaded": true
+  },
+  {
+    "title": "Enhancing Jailbreak Attacks on LLMs via Persona Prompts",
+    "year": 2025,
+    "authors": "Zheng Zhang, Peilin Zhao, Deheng Ye, Hao Wang",
+    "relevance": 2,
+    "citations": 3,
+    "source_url": "https://api.semanticscholar.org/CorpusId:280391418",
+    "semantic_id": "280391418",
+    "doi": null,
+    "arxiv_id": null,
+    "pdf_file": "papers/2025_Enhancing_Jailbreak_Attacks_on_LLMs_via_Persona_Prompts.pdf",
+    "downloaded": true,
+    "extra_pdf_urls": [
+      "https://arxiv.org/pdf/2507.22171"
+    ]
+  },
+  {
+    "title": "LLM Can be a Dangerous Persuader: Empirical Study of Persuasion Safety in Large Language Models",
+    "year": 2025,
+    "authors": "Minqian Liu, Zhiyang Xu, Xinyi Zhang, Heajun An, Sarvech Qadir, Qi Zhang, Pamela J. Wisniewski, Jin-Hee Cho, Sang Won Lee, Ruoxi Jia, Lifu Huang",
+    "relevance": 2,
+    "citations": 11,
+    "source_url": "https://api.semanticscholar.org/CorpusId:277780635",
+    "semantic_id": "277780635",
+    "doi": null,
+    "arxiv_id": null,
+    "pdf_file": "papers/2025_LLM_Can_be_a_Dangerous_Persuader_Empirical_Study_of_Persuasion_Safety_in_Large_L.pdf",
+    "downloaded": true,
+    "extra_pdf_urls": [
+      "https://arxiv.org/pdf/2504.10430"
+    ]
+  },
+  {
+    "title": "Response-Based Knowledge Distillation for Multilingual Jailbreak Prevention Unwittingly Compromises Safety",
+    "year": 2025,
+    "authors": "Max Zhang, Derek Liu, Kai Zhang, J. Franco, Haihao Liu",
+    "relevance": 2,
+    "citations": 0,
+    "source_url": "https://www.semanticscholar.org/paper/91cb1183f5bd4a0365d536ecbaa4e1cce95fd6ff",
+    "semantic_id": "91cb1183f5bd4a0365d536ecbaa4e1cce95fd6ff",
+    "doi": null,
+    "arxiv_id": null,
+    "pdf_file": "papers/2025_Response_Based_Knowledge_Distillation_for_Multilingual_Jailbreak_Prevention_Unwi.pdf",
+    "downloaded": true,
+    "extra_pdf_urls": [
+      "https://arxiv.org/pdf/2602.11157"
+    ]
+  },
+  {
+    "title": "Bridging Mechanistic Interpretability and Prompt Engineering with Gradient Ascent for Interpretable Persona Control",
+    "year": 2026,
+    "authors": "Harshvardhan Saini, Yiming Tang, Dianbo Liu",
+    "relevance": 2,
+    "citations": 0,
+    "source_url": "https://api.semanticscholar.org/CorpusId:284512621",
+    "semantic_id": "284512621",
+    "doi": null,
+    "arxiv_id": null,
+    "pdf_file": "papers/2026_Bridging_Mechanistic_Interpretability_and_Prompt_Engineering_with_Gradient_Ascen.pdf",
+    "downloaded": true,
+    "extra_pdf_urls": [
+      "https://arxiv.org/pdf/2601.02896"
+    ]
+  }
+]
