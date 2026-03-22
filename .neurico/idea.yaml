@@ -1,0 +1,26 @@
+idea:
+  title: LLM Pain
+  domain: nlp
+  hypothesis: 'There exist topics or features that large language models (LLMs) systematically
+    avoid, even when these were not explicitly called out in post-training; these
+    avoidance behaviors likely arise from generalization to persona from the training
+    set.
+
+    '
+  background:
+    description: "LLMs do not experience pain, but if they did, it might be observable\
+      \ through systematic avoidance of certain topics or behaviors. However, avoidance\
+      \ is confounded by explicit and implicit signals provided during post-training\
+      \ about what to avoid. This raises the question of whether there are things\
+      \ LLMs learn to avoid that are not explicitly specified in post-training, and\
+      \ if so, what these topics or features are and where they originate\u2014potentially\
+      \ from generalization to persona present in the training data.\n"
+  metadata:
+    author: Ari Holtzman
+    source: IdeaHub
+    source_url: https://hypogenic.ai/ideahub/idea/wRQIHfpSH73bygjfU5rf
+    idea_id: llm_pain_20260322_062510_256c37e3
+    created_at: '2026-03-22T06:25:10.250945'
+    status: submitted
+    github_repo_name: llm-pain-analysis-694e-codex
+    github_repo_url: https://github.com/Hypogenic-AI/llm-pain-analysis-694e-codex
